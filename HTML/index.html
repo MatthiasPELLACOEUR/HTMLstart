@@ -1,14 +1,26 @@
+<!DOCTYPE html>
 <html>
 
    <head>
       <title> HTML TEST </title>
+      <link rel="stylesheet" href="../HTML/style.css"
    </head>
 
    <body>
       
-      <h1 align="center">
-         <font color="#0000FF">About me</font>
-      </h1>
+      <header align="center">
+         <h1>
+            <font color="#0000FF">About me</font>
+         </h1>
+      </header>
+      
+      <nav>
+         <ul>
+            <li><a href="#"></a>Home</li>
+            <li><a href="#"></a>Services</li>
+            <li><a href="#"></a>About us</li>
+         </ul>
+      </nav>
 
       <form>
          <input type="radio" name="Gender" value="Male" /> Male <br />
@@ -20,8 +32,12 @@
       
       <p align="left">That's me some years ago (Et t'étais moche ptdr)</p>
       
-      <img src="../Images/moi_ce.jpg" height="220px" width="200px" alt="photo carte étudiant" />
+      <img src="../Images/moi_ce.jpg" height="220px" width="200px" alt="photo carte étudiant" /><br/>
       
+      <audio src="../audio/cheh.mp3" controls>
+      Audio element not supported by your browser
+      </audio>
+
       <h2><span>My favourite protagonist in Sh&#0333;nen</span></h2>
       
       <ol>
@@ -54,7 +70,7 @@
       </ul><br />
             
       <div style="background-color: darkblue;color:white; padding:20px">
-         <p>Ceci est un text pour un paragraphe dans un bloc bleu</p>
+         <p class="pseudo">Ceci est un text pour un paragraphe dans un bloc bleu.</p>
          <p>avec une police d'écriture blanche.</p>
       </div>
      
@@ -72,6 +88,25 @@
          <textarea name="message"></textarea>
          <input type="submit" value="SEND" class="submit" />
       </form><br />
+      
+      <nav>
+         <ul>
+            <li><a href ="#">COURSES</a></li>
+            <li><a href ="#">DISCUSS</a></li>
+            <li><a href ="#">TOP LEARNERS</a></li>
+            <li><a href ="#">BLOG</a></li>
+         </ul>
+      </nav>
+
+      
+
+      <div class="parent">
+         <p>First</p>
+         <p>Second</p>
+         <p>Third</p>
+         <p>Fourth</p>
+      </div>
+
    </body>
 
 </html>
