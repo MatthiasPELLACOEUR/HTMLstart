@@ -1,5 +1,6 @@
 body {
-    background: no-repeat 50% url("../Images/bleach-ichigo-kurosaki-bankai-fond-d-ecran-3554x1999-14486_53.jpg.png");
+    background-image: url("../Images/bleach-ichigo-kurosaki-bankai-fond-d-ecran-3554x1999-14486_53.jpg.png");
+    color: black;
 }
 nav {
     padding: 50px 0;
